@@ -1,0 +1,117 @@
+/* Universal Style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#1F1F1F;
+}
+/* Font Style  */
+.inter-normal,.primary-btn {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.poppins-normal {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+/* Common Style  */
+.section-components{
+    max-width: 1140px;
+    margin: auto;
+}
+.primary-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background:linear-gradient(to right, #FF589B,#FF136F);
+    border: none;
+    border-radius: 6px;
+    height: 52px;
+    max-width: 168px;
+}
+
+
+/* Nav Section  */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+}
+nav input{
+    height: 40px;
+    width: 510px;
+    border: none;
+    border-radius: 66px;
+    background-color: #F1F1F1;
+    padding: 20px ;
+}
+nav::placeholder{
+    color: #707070;
+    font-size: 16px;
+}
+.search{
+    position: relative;
+}
+.search i{
+    position: absolute;
+    top: 13px;
+    right: 20px;
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+}
+
+
+/* Banner Section  */
+.banner{
+    height: 455px;
+    max-width: 1220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #FEEAE9;
+}
+.banner-details{
+    padding: 68px 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.banner img{
+    height: 378px;
+    max-width: 402px;
+    padding: 39px 63px;
+}
+.banner h1{
+    font-size: 56px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.banner p{
+    max-width: 456px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+}
+.banner h2{
+    font-style: 41px;
+    font-weight: 500;
+    color: #FF136F;
+}
